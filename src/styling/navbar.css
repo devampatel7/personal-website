@@ -1,14 +1,22 @@
 .navbar-home {
     color: white;
     font-size: 1.5rem;
+    padding: 10px 20px;
     font-weight: bold;
     text-decoration: none;
     transition: all 0.2s ease-in-out; /* Add transition effect */
-    border-radius: 2px;
+    border: 1px solid white;
+    display: flex;
+    
+    justify-content: center;
   }
+
+  
   
   .navbar-home:hover {
-    color: black; /* Change color on hover */
-    font-size: 1.8rem; /* Increase font size on hover */
-    background-color: aqua;
+    background-color: white;
+    color: black;
   }
+
+  
+

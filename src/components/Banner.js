@@ -60,7 +60,7 @@ export const Banner = () => {
                 <p> 
                 Welcome to my personal website! As a dedicated student currently pursuing my degree in computer science at Rutgers University, I am determined to make my mark in the tech industry and learn more in the process. Join me as I embark on this journey, constantly seeking growth and aiming to make a meaningful impact in the tech world.
                 </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
           </Col>

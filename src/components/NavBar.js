@@ -55,8 +55,11 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/devam-patel-ddp7/"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/devampatel7"><img src={github} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+              <HashLink to=''>
+                <button className="vvd"    onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://devampatel7.github.io/resume_devam/';
+      } }><span>Resume</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
